@@ -16,3 +16,7 @@ cd my-project
 ->Here , we are using google fonts (Dancing+script)
     ->visit google fonts website and import "dancing+script" font for use
     ->paste it on top of index.css folder
+
+->We are using tailwind background-snippet
+    ->visit https://bg.ibelick.com/
+    
