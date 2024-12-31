@@ -1,8 +1,18 @@
-# React + Vite
+Set-up process
+npm create vite@latest my-project -- --template react
+cd my-project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+->For tailwind set-up visit [tailwindcss.com](https://tailwindcss.com/docs/guides/vite)
+    Paste in your terminal
+    ->npm install -D tailwindcss postcss autoprefixer
+    ->npx tailwindcss init -p
 
-Currently, two official plugins are available:
+->To run project on local server write : 
+    npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+->For icons we will be using react icons
+    Terminal: "npm install react-icons --save"
+
+->Here , we are using google fonts (Dancing+script)
+    ->visit google fonts website and import "dancing+script" font for use
+    ->paste it on top of index.css folder
