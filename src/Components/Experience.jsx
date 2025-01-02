@@ -6,8 +6,8 @@ const Experience = () => {
   return (
     <div className='border-b border-neutral-800 pb-4 mb-4'>
         <motion.h1
-        whileInView={{opacity:1,y:-100}}
-        initial = {{opacity:0,y:0}}
+        whileInView={{opacity:1,y:0}}
+        initial = {{opacity:0,y:-100}}
         transition={{duration:0.5,delay:0.5}}
         className='my-32 text-4xl text-center'>Experience</motion.h1>
         <div>
