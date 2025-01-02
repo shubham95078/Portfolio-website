@@ -19,4 +19,7 @@ cd my-project
 
 ->We are using tailwind background-snippet
     ->visit https://bg.ibelick.com/
+
+->For animation , we will be using "Framer Motion" library of react
+    ->In your terminal write "npm install framer-motion"
     
