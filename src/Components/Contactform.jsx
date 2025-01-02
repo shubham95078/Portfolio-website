@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Swal from 'sweetalert2'
 const Contactform = () => {
   const [result,setResult] = useState("");
   const onSubmit = async (event) => {
@@ -17,7 +17,11 @@ const Contactform = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      Swal.fire({
+        title: "Sucess",
+        text: "Message sent successfully",
+        icon: "success"
+      });;
       event.target.reset();
     } else {
       console.log("Error", data);

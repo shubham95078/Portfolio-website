@@ -28,4 +28,8 @@ cd my-project
     ->choose your technology
     ->follow the steps
 
+-> Using sweetAlert for alert message
+    ->visit sweetalert2.github.io
+    ->go to installation
+        ->write on your terminal "npm install sweetalert2"
     
