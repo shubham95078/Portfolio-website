@@ -1,31 +1,16 @@
 import React from 'react'
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import About from './Components/About'
-import Technology from './Components/Technology'
-import Experience from './Components/Experience'
-import Project from './Components/Project'
-import Contact from './Components/Contact'
-
+import { Routes , Route } from 'react-router-dom';
+import Body from './Components/Body.jsx';
+import Contactform from './Components/Contactform.jsx';
 const App = () => {
   return (
-    <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-200 selection:text-blue-600'>
-      <div className='fixed top-0 -z-10 h-full w-full'></div>
-      <div className=" absolute top-0 z-[-2] h-auto w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
-        <div className='container mx-auto px-8'>
+    <div>
+      <Routes>
+        <Route path='/' element={<Body />} />
+        <Route path='/contactform' element={<Contactform />} />
 
-          <Navbar />
-          <Hero />
-          <About />
-          <Technology />
-          <Experience />
-          <Project />
-          <Contact />
-        </div>
-      </div>
+      </Routes>
     </div>
-    
-
     
   )
 }

@@ -22,4 +22,10 @@ cd my-project
 
 ->For animation , we will be using "Framer Motion" library of react
     ->In your terminal write "npm install framer-motion"
+
+->Linking contact form to email
+    ->visit web3form.com
+    ->choose your technology
+    ->follow the steps
+
     
