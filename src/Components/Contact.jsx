@@ -1,6 +1,7 @@
 import React from 'react'
 import { CONTACT } from '../constants'
 import {motion} from 'motion/react'
+import { Link } from 'react-router-dom'
 const Contact = () => {
 
   return (
@@ -17,7 +18,11 @@ const Contact = () => {
         className='text-center tracking-tighter'>
             <p className='my-4'>{CONTACT.address}</p>
             <p className='my-4'>{CONTACT.phoneNo}</p>
-            <a href="#" className='border-b'>{CONTACT.email}</a>
+            
+            <span>
+              <Link to="./contactform">CONTACT ME</Link>
+
+            </span>
 
         </motion.div>
 
