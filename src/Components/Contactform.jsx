@@ -30,7 +30,7 @@ const Contactform = () => {
   };
   return (
     <section className=" container h-screen flex flex-col  items-center text-white absolute top-0 z-[-2]  w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
-      <form onSubmit = {onSubmit} className=" absolute flex flex-col items-start gap-4   m-2 p-4">
+      <form onSubmit = {onSubmit} className="bg-slate-800 rounded absolute flex flex-col items-center gap-4   m-2 p-4">
         <h2 className=" text-4xl tracking-tighter pb-20 ">
           Contact Form
         </h2>

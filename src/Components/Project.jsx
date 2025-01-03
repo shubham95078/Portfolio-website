@@ -1,6 +1,7 @@
 import React from 'react'
 import { PROJECTS } from '../constants'
-import {motion} from 'motion/react'
+import {motion, px} from 'motion/react'
+
 const Project = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -17,8 +18,8 @@ const Project = () => {
                     initial = {{opacity:0,x:-100}}
                     transition={{duration:1,delay:0.5}}                  
                   className='w-full lg:w-1/4'>
-
-                  <img src={projects.image} className='mb-6 rounded' width={150} height={150 } alt={projects.title} />
+ 
+                  <img src={projects.image} className='mb-6 rounded w-[200px] h-[200px] object-cover' width={150} height={150 } alt={projects.title} />
 
                   </motion.div>
                   <motion.div 

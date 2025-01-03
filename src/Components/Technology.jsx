@@ -1,8 +1,8 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
-import { FaHtml5 } from "react-icons/fa6";
+import { FaHtml5, FaSquareGithub } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa6";
-import { FaJsSquare } from "react-icons/fa";
+import { FaGitAlt, FaJsSquare } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { RiNextjsLine } from "react-icons/ri";
@@ -68,6 +68,22 @@ const Technology = () => {
                 animate = "animate"
                 className='rounded-xl border-2 p-2 border-neutral-800'>
                 <RiReactjsLine className='text-7xl text-cyan-400'/>
+            </motion.div>
+            {/* Github */}
+            <motion.div
+                variants = {iconVariants(0.5)}
+                initial = "initial"
+                animate = "animate"
+                className='rounded-xl border-2 p-2 border-neutral-800'>
+                <FaSquareGithub  className='text-7xl'/>
+            </motion.div>
+            {/* Git */}
+            <motion.div
+                variants = {iconVariants(2)}
+                initial = "initial"
+                animate = "animate"
+                className='rounded-xl border-2 p-2 border-neutral-800'>
+                <FaGitAlt   className='text-7xl text-red-600'/>
             </motion.div>
             <motion.div
                 variants = {iconVariants(5)}

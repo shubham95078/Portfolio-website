@@ -2,6 +2,7 @@ import React from 'react'
 import { CONTACT } from '../constants'
 import {motion} from 'motion/react'
 import { Link } from 'react-router-dom'
+import { RiContactsBook2Fill } from 'react-icons/ri'
 const Contact = () => {
 
   return (
@@ -19,8 +20,8 @@ const Contact = () => {
             <p className='my-4'>{CONTACT.address}</p>
             <p className='my-4'>{CONTACT.phoneNo}</p>
             
-            <span>
-              <Link to="./contactform">CONTACT ME</Link>
+            <span className='border-green-600 bg-green-300  p-2 rounded text-base  text-green-700 hover:bg-green-500 hover:text-green-100'>
+              <Link to="./contactform">Contact Me 🗨️</Link>
 
             </span>
 
