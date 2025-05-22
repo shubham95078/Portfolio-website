@@ -6,15 +6,15 @@ import FoodWebsite from "../assets/projects/Food-Website.png";
 import QuizApp from "../assets/projects/Quiz-app.png";
 import portfolio_img from "../assets/projects/Portfolio.png";
 
-export const HERO_CONTENT = `Hi, I’m Shani Dev Kashyap, a passionate front-end developer dedicated to building responsive, user-friendly, and visually engaging web applications. With a solid foundation in HTML, CSS, JavaScript, and frameworks like React.js and Tailwind CSS, I enjoy turning creative ideas into functional and interactive user interfaces.I also enjoy exploring advanced tools like ShadCN to ensure seamless component integration and have recently worked with Redux Toolkit for effective state management in React applications.`;
+export const HERO_CONTENT = `Hi, I’m Shubham Kumar, a passionate front-end developer dedicated to building responsive, user-friendly, and visually engaging web applications. With a solid foundation in HTML, CSS, JavaScript, and frameworks like React.js and Tailwind CSS, I enjoy turning creative ideas into functional and interactive user interfaces.I also enjoy exploring advanced tools like ShadCN to ensure seamless component integration and have recently worked with Redux Toolkit for effective state management in React applications.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. With experience in technologies like React, Tailwind CSS, JavaScript, and ShadCN, I focus on building responsive and interactive interfaces that enhance user experiences. My journey in web development started with a deep curiosity for design and functionality, and it has grown into a career where I constantly strive to learn and tackle new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Beyond coding, I love exploring emerging technologies, refining my skills, and contributing to meaningful projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "June 2024 - Nov 2024",
+    year: "January 1st - January 31st",
     role: "Software Engineering Intern",
-    company: "MyTribe",
+    company: "Codtechitsolutions",
     description: `Contributed to the design and development of responsive and interactive components for the company's website. Utilized frontend technologies like React, Tailwind CSS, and ShadCN to build reusable UI components. Collaborated with team members in a fast-paced startup environment to enhance user experience and interface consis-
 tency`,
     technologies: ["Tailwind CSS", "React.js", "Next.js", "ShadCN-UI"],
@@ -44,12 +44,12 @@ tency`,
 
 export const PROJECTS = [
   {
-    title: "Food Website",
+    title: "Music Streaming Website",
     image: FoodWebsite,
     description:
-      "Dynamic Restaurant Menu with detailed dish descriptions, prices, and discounts. Intuitive UI/UX ensures seamless navigation and quick access to features. Users can rate and review dishes, fostering community feedback and enriching the overall dining experience."
+      "A sleek, user-friendly platform that offers access to songs. With intuitive navigation, users can discover new music, create playlists, and engage with content through ratings and reviews, all while enjoying tailored recommendations based on their listening habits."
 ,
-    technologies: ["HTML", "CSS", "React", "Redux.js", "Tailwind CSS"],
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Quiz-App",

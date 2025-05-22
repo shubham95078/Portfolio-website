@@ -44,7 +44,7 @@ const Hero = () => {
                     initial = {{x:100 , opacity:0}}
                     animate = {{x:0 , opacity:1}}
                     transition={{duration: 1 , delay: 1.2}}
-                  className='rounded-lg object-fit w-96 h-auto shadow-gradient-blue-black' src={PROFILE_IMG_URL} alt="Shani" />
+                  className='rounded-lg object-fit w-96 h-auto shadow-gradient-blue-black' src={PROFILE_IMG_URL} alt="" />
               </div>
             </div>
         </div>
